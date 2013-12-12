@@ -41,7 +41,7 @@
 	width: inherit ! important;
 	height: 0px ! important;
 	float: right;
-	margin-right: 30px;
+	margin-right: 18px;
 }
 .jSParent .jSBarTopMenuButton * {
 	position: absolute;
@@ -144,7 +144,10 @@
 }
 
 #global-zeroclipboard-html-bridge {
-	opacity:0.01;
+	-moz-opacity: 0.01;
+	-khtml-opacity: 0.01;
+	opacity: 0.01;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
 	filter:alpha(opacity=1);
 }
 
